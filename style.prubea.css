@@ -1,0 +1,142 @@
+/* Importación de una fuente moderna de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd60a;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.noticia-principal {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.noticia-principal img {
+    width: 100%;
+    height: auto;
+}
+
+.noticia-principal h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.noticia-principal p {
+    padding: 0 20px 20px;
+}
+
+.noticia-principal a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.noticia-principal a:hover {
+    background-color: #0077b6;
+}
+
+.noticias-secundarias {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.noticias-secundarias article {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: calc(33.333% - 13.333px);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.noticias-secundarias article:hover {
+    transform: translateY(-5px);
+}
+
+.noticias-secundarias img {
+    width: 100%;
+    height: auto;
+}
+
+.noticias-secundarias h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #0077b6;
+}
+
+.noticias-secundarias p {
+    padding: 0 10px 10px;
+    font-size: 0.9rem;
+}
+
+.noticias-secundarias a {
+    display: block;
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    margin: 0 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.noticias-secundarias a:hover {
+    background-color: #023e8a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077b6;
+    color: white;
+    margin-top: 40px;
+}
