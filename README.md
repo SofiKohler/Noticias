@@ -27,4 +27,4 @@ Este es un proyecto simple de una página web de noticias, desarrollada con **HT
 
 1. Clona este repositorio:
    ```bash
-   git clone 
+   git clone https://github.com/SofiKohler/Noticias.git
